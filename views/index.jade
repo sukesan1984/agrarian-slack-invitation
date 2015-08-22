@@ -12,7 +12,8 @@ html
         width: 400px;
       }
   body
-    h1 Join the #{community} community on Slack!
+  h2 Agrarianの開発用Slackチームへの招待を受けるにはこちらにemailアドレスを入力してください。
+  h2 入力いただいたメールアドレスにinvitationが届きます。
     form(method="POST", action="/invite")#join-form
       input(type="text", name="email", placeholder="Enter your email")#slack-email
     script.
